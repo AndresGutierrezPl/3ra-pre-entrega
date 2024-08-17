@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bosque Miraflores</title>
+    <!--Enlace a Css-->
+    <link rel="stylesheet" href="../styles/styles.css">
+    <!--Enlace de Bootsrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+
+    
+    <header class="header" id="header">
+        <!--img fondo-->
+        <img src="../assets/banner-ubicacion.jpg" alt="bosque miraflores parque" class="bg__img">
+        <!--Navbar de bootstrap-->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html"><img src="../assets/logotipo.png" alt="logotipo bosque miraflores" width="100" class="nav__logo"></a>
+            <!--Boton hamburguesa-->
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+            <!--menu navbar-->
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ms-auto">
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="parque.html"><img src="../assets/parque-icon.png" alt="icono parque" class="nav__icons" width="20">Parque</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="preservacion.html"><img src="../assets/preservacion-icon.png" alt="icono preservacion" class="nav__icons" width="20">Preservacion</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link active" href="ubicacion.html"><img src="../assets/ubicacion-icon.png" alt="icono ubicacion" class="nav__icons" width="20">Ubicación</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html"><img src="../assets/contacto-icon.png" alt="icono parque" class="nav__icons" width="20">Contacto</a>
+                        </li>
+                    
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Home Banner-->
+        <div class="banner__home">
+            <p class="banner__subtitle">Nuestra Ubicacion</p>
+            <h1 class="banner__title">EN EL CENTRO DE MIRAFLORES</h1>
+            <p class="banner__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat sit est pariatur quod id rerum a voluptates inventore optio tenetur.</p>
+        </div>
+        <a href="#header">
+            <img src="../assets/flecha-nav.png" alt="flecha-navegacion" class="flecha__button">
+        </a>
+    </header>
+    <main>
+        <div class="main__text">
+            <h2 class="subtitle">Una ubicación<br>privilegiada</h2>
+            <p class="parraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet suscipit placeat adipisci exercitationem optio quod, labore Lorem, ipsum dolor sit amet consectetur adipisicing elit. <span class="extra__info"></span>Aperiam ipsam quam tenetur. Soluta suscipit aut maxime reiciendis earum ab, quaerat modi aliquam odio tempora</span></p>
+        </div>
+    </main>
+    <section class="ubicacion">
+
+        <div class="ubicacion__container">
+				<div class="ubicacion__text">
+					<h3 class="ubicacion__title">Ubicados en el centro de miraflores</h3>
+					<p class="ubicacion__description">70.mtrs de bosque nativo</p>
+				</div>
+        </div>
+        <div class="main__text">
+            <h2 class="subtitle">Ubicación<br>geográfica</h2>
+            <p class="parraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet suscipit placeat adipisci exercitationem optio quod, labore Lorem, ipsum dolor sit amet consectetur adipisicing elit. <span class="extra__info"></span>Aperiam ipsam quam tenetur. Soluta suscipit aut maxime reiciendis earum ab, quaerat modi aliquam odio tempora</span></p>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15370.385445551854!2d-71.67030021889607!3d-35.916979930291156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x966f5edb7915f8c1%3A0x129cde9431099235!2sMiraflores%2C%20Longavi%2C%20Maule!5e0!3m2!1sen!2scl!4v1723899723761!5m2!1sen!2scl" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="ubicacion__map"></iframe>
+    </section>
+    <footer class="footer">
+            <h3 class="footer__title">Contáctanos</h3>
+            <h4 class="footer__subtitle">Direccion</h4>
+            <p class="footer__parraph">Miraflores, VII Región</p>
+            <h4 class="footer__subtitle">Teléfono</h4>
+            <p class="footer__parraph">+569 55227740</p>
+            <img src="../assets/logo-facebook.png" alt="facebook icon" class="footer__icons">
+            <img src="../assets/logo-instagram.png" alt="instagram icon" class="footer__icons">
+    </footer>
+    <!--Script de Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
